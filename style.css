@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+p {
+    color : white;
+    font-size: medium;
+    width: fit-content;
+}
+
+label {
+    color : white;
+    font-size: medium;
+    width: auto;
+    line-height: 30px;
+}
+
+input {
+    line-height : auto;
+    width: auto;
+}
+
+#timer {
+    height: fit-content;
+    min-width: auto;
+}
+
+#arrLength {
+    height: fit-content;
+    min-width: fit-content;
+}
+
+#arrColor {
+    height: fit-content;
+    min-width: fit-content;
+}
+
+#Home {
+    position: fixed;
+    width: auto;
+    height: auto;
+}
