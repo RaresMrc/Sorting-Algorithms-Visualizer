@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = 'stylesheet' href = 'style.css'>
+</head>
+
+<body>
+<div id = 'mainPage'>
+    <input id = 'randomArray' type = 'button' value = 'randomArrayGenerator'>
+    <input id = 'Bubblesort' type = 'button' value = 'Bubblesort'>
+    <input id = 'Quicksort' type = 'button' value = 'Quicksort'>
+    <input id = 'Selectionsort' type = 'button' value = 'Selectionsort'>
+    <input id = 'Insertionsort' type = 'button' value = 'Insertionsort'>
+    <input id = 'Mergesort' type = 'button' value = 'Mergesort'>
+    <input id = 'Randomsort' type = 'button' value = 'Randomsort'>
+    <input id = 'stopRandomsort' type = 'button' checked = 'true' value = 'Randomsort toggle'>
+    <input id = 'revert' type = 'button' value = 'Revert'>
+    <br>
+    <label for = 'sort_handler'>Sort handler</label>
+    <select id = 'sort_handler'>
+        <option value = 'ascending'>Ascending</option>
+        <option value = 'descending'>Descending</option>
+    </select>
+    <br>
+    <label for = 'timer'>Timer between changes (ms)</label>
+    <input id = 'timer' type = 'number'>
+    <br>
+    <label for = 'arrLength'>Array length (max 500)</label>
+    <input id = 'arrLength' type = 'number'>
+    <p id = 'moves'></p>
+</div>
+<canvas width = '1509' height = '600'></canvas>
+<script type = 'module' src = 'main.js'></script>
+</body>
+</html>
