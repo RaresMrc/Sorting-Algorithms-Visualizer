@@ -1,2 +1,2 @@
 # Sorting-Algorithms-Visualizer
-A site that lets you visualize how different sorting algorithms work.
+A site that lets you visualize how different sorting algorithms work. Currently implemented algorithms are bubble sort, insertion sort, selection sort, quick sort, merge sort, and there's also a random sort for fun. The number of swaps is counted, and you can revert to the original array once it's sorted, so you can test how different algorithms perform on the same input.
